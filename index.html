@@ -5,15 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Opticompu | Optimización de Alto Rendimiento</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/png">
 </head>
 <body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <img src="logo.png" alt="Opticompu" class="navbar-logo">
+            <div class="navbar-links">
+                <a href="#header" class="navbar-link">Beneficios</a>
+                <a href="#about-section" class="navbar-link">Sobre mi</a>
+                <a href="#contract-button" class="navbar-link navbar-contract">Contratar ahora</a>
+            </div>
+        </div>
+    </nav>
+
     <div class="container">
-        <header>
-            <h1>OPTICOMPU</h1>
-            <p class="tagline">Llevamos tu hardware al límite real.</p>
+        <header id="header">
+            <p class="tagline">La optimización que tu PC se merece</p>
         </header>
 
-        <section class="services">
+        <section class="services" id="services">
             <div class="card">
                 <h3>⚡ Máximos FPS</h3>
                 <p>Ajustes críticos del sistema para eliminar tirones y maximizar la fluidez.</p>
@@ -28,9 +39,27 @@
             </div>
         </section>
 
-        <footer>
+        <section class="about-section" id="about-section">
+            <div class="about-wrapper">
+                <div class="about-container">
+                    <div class="about-image">
+                        <img src="cara.png" alt="Valenoros">
+                    </div>
+                    <div class="about-text">
+                        <p>Hola, soy Valenoros. No soy un bot de soporte técnico ni una empresa fría; soy un apasionado del hardware y gamer como vos, que se cansó de ver cómo Windows devora recursos que deberían ir a tus juegos.</p>
+                        <p>Me dedico a exprimir cada FPS y reducir el input lag al mínimo posible. Sé exactamente qué servicios sobran y qué registros tocar para que tu PC deje de pelear contra el sistema operativo y se enfoque 100% en el rendimiento. Mi objetivo es que sientas que tenés una computadora nueva sin haber gastado un peso en componentes.</p>
+                    </div>
+                </div>
+            </div>
+            <p class="tech-note">📝 Nota técnica: Sí, la foto que ves arriba es un render. Mi hardware real estaba tan ocupado corriendo el CS2 a 500 FPS que no podíamos desperdiciar ciclos del procesador en abrir la cámara. Prioridades.</p>
+        </section>
+
+        <footer id="contract-button">
             <a href="https://www.instagram.com/opticompu" class="btn-contract">CONTRATAR SERVICIO</a>
+            <p class="guarantee">⚠️ Advertencia: Contratarme hará mejorar el rendimiento de tu equipo</p>
+            <div class="spacer"></div>
         </footer>
     </div>
+    <script src="js/animations.js"></script>
 </body>
 </html>
