@@ -10,10 +10,14 @@
 <body>
     <nav class="navbar">
         <div class="navbar-container">
-            <img src="logo.png" alt="Opticompu" class="navbar-logo">
+            <a href="#header" aria-label="Ir al inicio">
+                <img src="logo.png" alt="Opticompu" class="navbar-logo">
+            </a>
             <div class="navbar-links">
-                <a href="#header" class="navbar-link">Beneficios</a>
-                <a href="#about-section" class="navbar-link">Sobre mi</a>
+                <a href="#services" class="navbar-link">Beneficios</a>
+                <a href="#benchmarks" class="navbar-link">Análisis</a>
+                <a href="#about-section" class="navbar-link">Sobre mí</a>
+                <a href="terminos.html" class="navbar-link">Términos y condiciones</a>
                 <a href="#contract-button" class="navbar-link navbar-contract">Contratar ahora</a>
             </div>
         </div>
@@ -21,7 +25,12 @@
 
     <div class="container">
         <header id="header">
-            <p class="tagline">La optimización que tu PC se merece</p>
+            <p class="tagline">La optimización que <span class="tagline-focus">tu PC</span> se merece</p>
+            <p class="hero-subtitle">Optimización real de tu Windows 10/11 para lograr más rendimiento, menos latencia y una experiencia de juego mucho más fluida.</p>
+            <a href="#services" class="hero-scroll" aria-label="Bajar para ver más">
+                <span>Deslizá para descubrir todo</span>
+                <span class="hero-scroll-icon" aria-hidden="true"></span>
+            </a>
         </header>
 
         <section class="services" id="services">
@@ -37,6 +46,86 @@
                 <h3>🧹 Limpieza Profunda</h3>
                 <p>Eliminación de archivos basura y procesos innecesarios de Windows.</p>
             </div>
+
+            <div class="process-compare" aria-label="Comparativa de procesos de Windows 11">
+                <p class="process-title">Procesos de Windows 11</p>
+                <p class="process-subtitle">Comparativa real antes y después de la optimización.</p>
+
+                <div class="process-row">
+                    <span>Sin optimizar</span>
+                    <div class="process-track">
+                        <div class="process-bar process-before" style="--process-width: 100%;"></div>
+                    </div>
+                    <strong>180</strong>
+                </div>
+
+                <div class="process-row">
+                    <span>Con OptiCompu</span>
+                    <div class="process-track">
+                        <div class="process-bar process-after" style="--process-width: 40%;"></div>
+                    </div>
+                    <strong>72</strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="benchmarks-section" id="benchmarks">
+            <h2 class="benchmarks-title">Análisis</h2>
+            <p class="benchmarks-subtitle">Resultados obtenidos en pruebas reales sobre una PC de gama económica, equipada con Athlon 3000G y 8 GB de RAM en dual channel, en los juegos competitivos más jugados de PC.</p>
+
+            <div class="benchmark-card">
+                <h3 class="benchmark-game">Valorant</h3>
+                <div class="benchmark-row">
+                    <span>Sin optimizar</span>
+                    <div class="benchmark-track">
+                        <div class="benchmark-bar before" style="--bar-width: 37%;"></div>
+                    </div>
+                    <strong>54 FPS</strong>
+                </div>
+                <div class="benchmark-row">
+                    <span>Con OptiCompu</span>
+                    <div class="benchmark-track">
+                        <div class="benchmark-bar after" style="--bar-width: 92%;"></div>
+                    </div>
+                    <strong>147 FPS</strong>
+                </div>
+            </div>
+
+            <div class="benchmark-card">
+                <h3 class="benchmark-game">Counter-Strike 2</h3>
+                <div class="benchmark-row">
+                    <span>Sin optimizar</span>
+                    <div class="benchmark-track">
+                        <div class="benchmark-bar before" style="--bar-width: 29%;"></div>
+                    </div>
+                    <strong>42 FPS</strong>
+                </div>
+                <div class="benchmark-row">
+                    <span>Con OptiCompu</span>
+                    <div class="benchmark-track">
+                        <div class="benchmark-bar after" style="--bar-width: 49%;"></div>
+                    </div>
+                    <strong>78 FPS</strong>
+                </div>
+            </div>
+
+            <div class="benchmark-card">
+                <h3 class="benchmark-game">League of Legends</h3>
+                <div class="benchmark-row">
+                    <span>Sin optimizar</span>
+                    <div class="benchmark-track">
+                        <div class="benchmark-bar before" style="--bar-width: 45%;"></div>
+                    </div>
+                    <strong>77 FPS</strong>
+                </div>
+                <div class="benchmark-row">
+                    <span>Con OptiCompu</span>
+                    <div class="benchmark-track">
+                        <div class="benchmark-bar after" style="--bar-width: 96%;"></div>
+                    </div>
+                    <strong>172 FPS</strong>
+                </div>
+            </div>
         </section>
 
         <section class="about-section" id="about-section">
@@ -46,8 +135,8 @@
                         <img src="cara.png" alt="Valenoros">
                     </div>
                     <div class="about-text">
-                        <p>Hola, soy Valenoros. No soy un bot de soporte técnico ni una empresa fría; soy un apasionado del hardware y gamer como vos, que se cansó de ver cómo Windows devora recursos que deberían ir a tus juegos.</p>
-                        <p>Me dedico a exprimir cada FPS y reducir el input lag al mínimo posible. Sé exactamente qué servicios sobran y qué registros tocar para que tu PC deje de pelear contra el sistema operativo y se enfoque 100% en el rendimiento. Mi objetivo es que sientas que tenés una computadora nueva sin haber gastado un peso en componentes.</p>
+                        <p>Hola, soy Valenoros. No soy un bot de soporte técnico ni una empresa fría: soy un apasionado del hardware y del gaming, como vos, que se cansó de ver cómo Windows consume recursos que deberían ir a tus juegos.</p>
+                        <p>Me dedico a exprimir cada FPS y reducir el input lag al mínimo posible. Sé qué servicios sobran y qué ajustes aplicar para que tu PC deje de pelear contra el sistema operativo y se enfoque al 100% en el rendimiento. Mi objetivo es que sientas una mejora real, sin necesidad de gastar en componentes nuevos.</p>
                     </div>
                 </div>
             </div>
@@ -55,8 +144,17 @@
         </section>
 
         <footer id="contract-button">
-            <a href="https://www.instagram.com/opticompu" class="btn-contract">CONTRATAR SERVICIO</a>
-            <p class="guarantee">⚠️ Advertencia: Contratarme hará mejorar el rendimiento de tu equipo</p>
+            <a href="https://www.instagram.com/opticompu" class="btn-contract is-disabled" aria-disabled="true">CONTRATAR SERVICIO</a>
+            <p class="guarantee">⚠️ Aviso: al contratar el servicio, el rendimiento de tu equipo va a mejorar.</p>
+
+            <div class="disclaimer-box">
+                <label class="disclaimer-check">
+                    <input type="checkbox" id="accept-disclaimer">
+                    <span class="check-indicator" aria-hidden="true"></span>
+                    <span>Acepto el descargo de responsabilidad y confirmo que leí los <a href="terminos.html" class="inline-terms-link">Términos y condiciones</a>. Entiendo que los resultados pueden variar según el estado del equipo, sus componentes y su configuración.</span>
+                </label>
+            </div>
+
             <div class="spacer"></div>
         </footer>
     </div>
