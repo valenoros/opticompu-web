@@ -1,5 +1,3 @@
-Aquí tenés una propuesta de README.md profesional y completa para tu repositorio de GitHub. Está diseñada para que cualquier persona que entre a tu perfil vea que sos un desarrollador proactivo que sabe usar herramientas modernas como la IA para resolver problemas reales.
-
 Opticompu | High-Performance Optimization
 Este es el repositorio oficial de la landing page de Opticompu, un servicio especializado en la optimización de hardware y software para gaming de alto rendimiento.
 
